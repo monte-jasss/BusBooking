@@ -18,8 +18,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ![Tech: JavaScript](https://img.shields.io/badge/3-JavaScript-green.svg)
 
-![Tech: Bootstrap](https://img.shields.io/badge/4-Bootstrap-green.svg)
-
 ![Tech: JQuery](https://img.shields.io/badge/5-JQuery-green.svg)
 
 ![Tech: PHP](https://img.shields.io/badge/5-PHP-green.svg)
