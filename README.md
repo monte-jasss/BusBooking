@@ -12,12 +12,14 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 * import the database(project.sql) into xampp server
 
 ## Technology Used
-![Tech: Java](https://img.shields.io/badge/1-Java-green.svg)
+![Tech: HTML5](https://img.shields.io/badge/1-HTML5-green.svg)
 
-![Tech: XML](https://img.shields.io/badge/2-XML-green.svg)
+![Tech: CSS3](https://img.shields.io/badge/2-CSS3-green.svg)
 
-![Tech: JSON](https://img.shields.io/badge/3-JSON-green.svg)
+![Tech: JavaScript](https://img.shields.io/badge/3-JavaScript-green.svg)
 
-![Tech: Retrofit](https://img.shields.io/badge/4-Retrofit-green.svg)
+![Tech: Bootstrap](https://img.shields.io/badge/4-Bootstrap-green.svg)
+
+![Tech: JQuery](https://img.shields.io/badge/5-JQuery-green.svg)
 
 ![Tech: PHP](https://img.shields.io/badge/5-PHP-green.svg)
