@@ -1,0 +1,105 @@
+input[name=from], input[name=to], input[name=city] {
+	background: url('../image/loc.png') left no-repeat;
+	background-color: #fff;
+	width: 100%;
+	padding-left: 27px;
+}
+
+input[type=date] {
+	background: url('../image/cal.png') left no-repeat;
+	background-color: #fff;
+	width: 93%;
+	padding-left: 27px;
+}
+
+.span{
+	font-family: arial;
+	font-size: 130%;
+	line-height: 25px;
+}
+.header img:nth-child(2) {
+	float: right;
+	width: 15%;
+}
+
+.city {
+	box-shadow: 3px 3px 6px;
+	background-color: #518bff; 
+	border-radius: 5px;
+	height: 25px;
+}
+
+#center {
+	text-align: center;
+}
+
+.cimg img {
+	border-radius: 50%;
+	width: 55%;
+	height: auto;
+}
+
+.cimg {
+	font-size: 90%;
+	padding: 0 15%;
+	margin-top: 10%;
+}
+
+.cimg footer {
+	display: none;
+}
+
+.cimg:hover footer {
+	display: block;
+}
+
+.top img {
+	width: 18%;
+	height: auto;
+	margin-top: -10%;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 710px)
+{
+	.cimg div img {
+		border-radius: 50%;
+		height: auto;
+	}
+	
+	.slider section div img {width: 40%;}
+	
+	.cimg {
+		font-size: 80%;
+	}
+	
+	.busC img {
+		width: 25%;
+		height: auto;
+	}
+	
+	.cimg img {
+		transition: none;
+	}
+
+	.cimg {
+		font-size: 90%;
+		padding: 0 15%;
+		margin-top: 10%;
+	}
+
+	.cimg footer {
+		display: none;
+	}
+
+	.cimg:hover footer {
+		display: block;
+	}
+	
+	.top img {
+		display: none;
+	}
+	
+	.header img:nth-child(2) {
+		display: none;
+	}
+}

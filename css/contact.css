@@ -1,0 +1,83 @@
+.feed {
+	font-size: 16px;
+	margin-bottom: 2%;
+	width: 99%;
+	height: 100px;
+}
+
+pre {
+	font-family: arial;
+	color: #07006d;
+	font-style: italic;
+}
+
+#main{
+	width: 96%;
+}
+
+#infoi{
+	padding: 2%;
+	margin: 1% 0 -3% 2%;
+	float: left;
+	width: 20%;
+	height: 120px;
+	border-right: 2px dotted black;
+}
+
+#infod pre{ 
+	cursor: text;
+	padding-top: 5%;
+	margin-top: 0%;
+	margin-left: 5%;
+}
+
+#infod{
+	float: left;
+	margin-top: 0%;
+	width: 60%;	
+}
+
+#infoi img {
+	border-radius: 50%;
+	width: 60%;
+	height: auto;
+}
+
+#full {
+	overflow: hidden;
+}
+
+.contact{
+	margin-top: 2%;
+	padding: 2% 2%;
+	border-radius: 5px;
+	background-color: white;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 710px)
+{
+	#infoi{
+		padding: 2%;
+		margin: 1% 0 -3% 2%;
+		width: 60%;
+		height: auto;
+		border-right: none;
+	}
+	
+	#infod pre{ 
+		width: 100%;
+		cursor: text;
+		padding-top: 5%;
+		margin-top: 0%;
+		margin-left: 0%;
+	}
+
+	#infod{
+		
+		margin-top: 0%;
+		width: 60%;	
+	}
+}

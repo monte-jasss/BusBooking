@@ -1,0 +1,207 @@
+input[type=text], input[type=email], input[type=tel], input[type=password] {
+	width: 93%;
+	padding-left: 27px;
+	z-index:1;
+}
+
+input[name=fname], input[name=lname] {
+	background: url('../image/man.png') left no-repeat;
+	background-color: #fff;
+	z-index:1;
+}
+
+input[type=email] {
+	background: url('../image/mail.png') left no-repeat;
+	background-color: #fff;
+	z-index:1;
+}
+
+input[type=tel] {
+	background: url('../image/mob.png') left no-repeat;
+	background-color: #fff;
+	z-index:1;
+}
+
+input[type=password] {
+	background: url('../image/pass.png') left no-repeat;
+	background-color: #fff;
+	z-index:1;
+}
+
+select {
+	background: url('../image/gen.png') left no-repeat;
+	background-color: #fff;
+	z-index:1;
+}
+
+.form {
+	position: relative;
+}
+
+.pass {
+	font-weight: bold;
+	float: right;
+	margin-top: 1%;
+}
+
+.pass > a:hover{
+	font-size: 110%; 
+	color: #07006d;
+	text-decoration: underline;
+}
+
+.regform {
+	float: left;
+	width: 70%;
+	background-color: white;
+	border-radius: 5px;
+	margin-bottom: 1.5%;
+	margin-top: 2%;
+}
+
+.regform div {
+	
+}
+
+.div {
+	padding: 2% 2%;
+}
+
+.regform form {
+	width: 70%;
+	margin: 0 auto;
+	padding: 2%;
+	background-color: #e2e3ff;
+}
+
+label {
+	font-size: 120%;
+}
+
+.input1{
+	width: 99%;
+	height: 30px;
+	font-size: 15px;
+	border-radius: 3px;
+	margin-bottom: 12px;
+	padding-left: 16px;
+	border: 1px in-set black;
+}
+
+.first {
+	margin-bottom: 4%;
+}
+
+.first img {
+	width: 18%;
+	height: auto;
+	margin-top: -10%;
+}
+
+section.ticket {
+	overflow: hidden;
+	width: 100%;
+	//border: 1px solid blue;
+}
+
+.ticket div {
+	border: 10px dotted white;
+	border-radius: 5px;
+	padding: 5px 0;
+	margin: 0 auto;
+	width: 80%;
+	background-color: #e2e3ff;
+}
+
+.ticket table {
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin: 0 auto;
+	width: 95%;
+}
+
+.ticket table th {
+	color: #07006d;
+	text-align: center;
+	font-family: counter-increment;
+	font-size: 150%;
+}
+
+.ticket table td {
+	padding-left: 3px;
+	border-top: 1px solid black;
+}
+
+.ticket article {
+	border: 10px dotted white;
+	border-radius: 5px;
+	padding: 5px 0;
+	margin: 0 auto;
+	width: 40%;
+	background-color: #e2e3ff;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 920px){
+	.button3{
+		width: 93%;
+		float: left;
+		margin-bottom: 10%;
+	}
+	
+	.pass {
+		float: none;
+	}
+}
+
+
+@media only screen and (min-width: 150px) and (max-width: 710px)
+{
+	.regform {
+		width: 100%;
+		margin-top:7%;
+	}
+	
+	.input1{
+		width: 95%;
+		height: 30px;
+		font-size: 15px;
+		border-radius: 3px;
+		margin-bottom: 12px;
+		padding-left: 16px;
+		border: 1px in-set black;
+	}
+	
+	input[type=text], input[type=email], input[type=tel], input[type=password] {
+		width: 91%;
+		padding-left: 27px;
+	}
+	
+	.first img {
+		display: none;
+	}
+	
+	.regform form {
+		width: 95%;
+	}	
+
+	.ticket div {
+		font-size: 70%;
+		padding: 2px 0;
+		width: 95%;
+	}
+
+	.ticket table {
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+	.ticket table th {
+		text-align: center;
+		font-family: counter-increment;
+		font-size: 150%;
+	}
+
+	.ticket table td {
+		padding-left: 1px;
+	}
+}
